@@ -1,10 +1,13 @@
 # Jquery::Scrolltofixed::Rails
-Short description and motivation.
+
+Integrate JQuery ScrollToFixed plugin into Rails.
 
 ## Usage
-How to use my plugin.
+You can check the official documentation [here](https://github.com/bigspotteddog/ScrollToFixed#usage).
 
 ## Installation
+NOTE: you have to install [jquery-rails](https://rubygems.org/gems/jquery-rails) gem to use this gem.
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -21,8 +24,18 @@ Or install it yourself as:
 $ gem install jquery-scrolltofixed-rails
 ```
 
+Copy:
+
+```
+//=require jquery-scrolltofixed-rails
+```
+In your:
+```
+assets/javascripts/application.js
+```
+
 ## Contributing
-Contribution directions go here.
+Just create a PR.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
